@@ -1,0 +1,44 @@
+body {
+ width: 850px;
+ margin: 0 auto;
+  background-image: url(nasa.jpg);
+  background-size: cover;
+}
+
+main{
+margin: 0 auto;
+height: 450px;
+  background-image: url(nasa.jpg);
+  background-size: cover;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 75px;
+  color:red
+
+}
+section{
+  display: flex;
+  height: 324px;
+  margin: 2 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+article{
+  height: 400px;
+  width: 374px;
+  background-color: black;
+  border: solid;
+}
+p{
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
